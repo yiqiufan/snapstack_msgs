@@ -1,7 +1,7 @@
 # Use this message to command the outer loop to track
 # a trajectory generated from a high-level trajectory planner.
 
-Header header
+std_msgs/Header header
 
 # Current time-slice of desired trajectory
 geometry_msgs/Point p # position
